@@ -253,7 +253,11 @@
 							
 							E-mail<br>
 							<input type="text" class="form-control" name="email" type="email" placeholder="Email Address" required="required" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" data-validation-required-message="Please enter your email address." ><br>
-			
+
+                            <input type="checkbox" id="confirm" name="confirm" value="" require="required">
+                            <label for="confirm">Autorizo el tratamiento de mis datos de acuerdo con la
+finalidad establecida en la política de protección de datos personales</label><br>
+
                             <button class="btn btn-primary btn-xl" type="submit" onclick="msjSuccess()">Send</button>
 
                             <div class="form-group">
